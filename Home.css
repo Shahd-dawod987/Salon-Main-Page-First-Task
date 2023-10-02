@@ -1,0 +1,177 @@
+.salon {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: -webkit-linear-gradient(#ab0dd7, #4963ca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.saloniProducts {
+    margin-left: 135px;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.saloniProductsitem {
+    margin-left: 150px;
+    line-height: 3;
+    font-size: 13px;
+}
+
+.salonlegal {
+    margin-left: 130px;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.salonlegalitem {
+    margin-left: 60px;
+    line-height: 2.5;
+    font-size: 13px;
+
+}
+
+.salonSocialMedia {
+    margin-left: 180px;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.salonSocialMediaitem {
+    margin-left: 50px;
+    text-align: right;
+    margin-top: 30px;
+
+
+}
+
+
+.Big {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.colmuns ul {
+    list-style: none;
+    margin-left: 95px;
+    margin-right: 10px;
+    line-height: 2.5;
+}
+
+
+
+.parhome {
+    margin-top: 10px;
+}
+
+
+
+/*Micro Influncers*/
+
+.micro {
+    background-color: #fffefe;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 3px 4px 10px 5px rgb(217, 216, 216);
+    display: flex;
+    flex-direction: column;    
+}
+
+.headandpar{
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.picandpar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.micro h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.pic {
+   
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.parheart {
+    color: rgb(190, 188, 188);
+    /* margin-top: -9%;*/
+}
+
+
+
+.micro ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+/*Header */
+
+.header {
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(236, 236, 236, 0.683);
+    background-color: #fffefe;
+    opacity: 1.0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 30px;
+}
+
+.headcont {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headcont a {
+    color: black;
+}
+
+.butandimg {
+    display: flex;
+    gap: 10px;
+    padding: 0px 30px;
+
+}
+
+
+@media (max-width: 1486) {
+    .micro img {
+        width: 90% ;
+     }
+ }
+
+
+@media (max-width: 882px) {
+   .micro img {
+      display: none;
+    }
+}
+
