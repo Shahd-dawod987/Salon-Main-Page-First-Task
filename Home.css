@@ -1,81 +1,3 @@
-.salon {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: -webkit-linear-gradient(#ab0dd7, #4963ca);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-.saloniProducts {
-    margin-left: 135px;
-    line-height: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
-}
-
-.saloniProductsitem {
-    margin-left: 150px;
-    line-height: 3;
-    font-size: 13px;
-}
-
-.salonlegal {
-    margin-left: 130px;
-    line-height: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.salonlegalitem {
-    margin-left: 60px;
-    line-height: 2.5;
-    font-size: 13px;
-
-}
-
-.salonSocialMedia {
-    margin-left: 180px;
-    line-height: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.salonSocialMediaitem {
-    margin-left: 50px;
-    text-align: right;
-    margin-top: 30px;
-
-
-}
-
-
-.Big {
-    margin-left: 20px;
-    margin-top: 40px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.colmuns ul {
-    list-style: none;
-    margin-left: 95px;
-    margin-right: 10px;
-    line-height: 2.5;
-}
-
-
-
-.parhome {
-    margin-top: 10px;
-}
-
-
-
 /*Micro Influncers*/
 
 .micro {
@@ -85,17 +7,17 @@
     margin-left: 40px;
     box-shadow: 3px 4px 10px 5px rgb(217, 216, 216);
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-.headandpar{
+.headandpar {
     padding-left: 70px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 
-.picandpar{
+.picandpar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,28 +30,20 @@
     line-height: 1.5;
 }
 
-.pic {
-   
-    align-items: end;
-    justify-content: flex-end;
-}
-
 .parheart {
     color: rgb(190, 188, 188);
-    /* margin-top: -9%;*/
 }
 
 
 
 .micro ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
     margin-left: 40px;
     line-height: 2;
 }
 
-/*Header */
 
+/*Header */
 .header {
     height: 70px;
     width: 100%;
@@ -141,6 +55,10 @@
     justify-content: space-between;
     margin: 0;
     padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .headcont {
@@ -155,23 +73,445 @@
 }
 
 .butandimg {
+    margin-right: 20px;
     display: flex;
     gap: 10px;
     padding: 0px 30px;
 
 }
 
+.downlod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-@media (max-width: 1486) {
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.homeq {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgba(230, 230, 230, 255);
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.homeq img {
+    width: 500px;
+    height: 400px;
+}
+
+.parmicro {
+    line-height: 1.5;
+}
+
+.microparforli p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 1486px) {
     .micro img {
-        width: 90% ;
-     }
- }
-
-
-@media (max-width: 882px) {
-   .micro img {
-      display: none;
+        width: 70%;
     }
 }
 
+
+@media (max-width: 882px) {
+
+    .homeq {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .homeq img {
+        width: 55%;
+        height: 60%;
+
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .micro {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .micro img {
+        display: none;
+    }
+
+
+    .headandpar {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .picandpar {
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .microparforli p {
+        margin-left: 30px;
+    }
+
+    .micro h1 {
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+
+    .parheart {
+        display: none;
+    }
+
+    .headandpar p {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1027px) {
+    .forbus {
+        display: none;
+    }
+
+    .headlink {
+        display: none;
+    }
+}
+
+
+/*footer*/
+.Bigfooter {
+
+    margin-top: 40px;
+    box-shadow: 0px -7px 3px 0px rgba(236, 236, 236, 0.683);
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 118px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.imgandparfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 34px;
+    margin-left: 20px;
+}
+
+
+.footerpar h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: -webkit-linear-gradient(#ab0dd7, #4963ca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.footerpar p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(190, 188, 188);
+}
+
+
+.imganda {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.ios {
+
+    height: 50px;
+    width: 160px;
+}
+
+.android {
+    height: 52px;
+    width: 160px;
+}
+
+.diffcult {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+
+}
+
+.Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Products h3 {
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.saloniProductsitem {
+    line-height: 3;
+    font-size: 13px;
+    list-style: none;
+}
+
+
+.Legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Legal h3 {
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.salonlegalitem {
+    line-height: 2.5;
+    font-size: 13px;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.Social-Media {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+
+}
+
+
+.Social-Media h3 {
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.salonSocialMediaitem {
+    display: flex;
+    gap: 40px;
+
+}
+
+.facebook {
+    height: 15px;
+    width: 15px;
+}
+
+.insta {
+    height: 16px;
+    width: 16px;
+
+}
+
+.linkin {
+    height: 15px;
+
+}
+
+.youtube {
+    height: 13px;
+    width: 18px;
+
+}
+
+.tiktok {
+    height: 15px;
+    width: 15px;
+
+}
+
+@media(max-width: 1304px) {
+
+    .salonSocialMediaitem {
+        display: flex;
+        gap: 25px;
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width: 1235px) {
+
+    .salonSocialMediaitem {
+        display: flex;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+
+}
+
+
+@media(max-width:1020px) {
+
+    .salonSocialMediaitem {
+        display: flex;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .diffcult {
+        display: flex;
+        gap: 10px;
+        margin-left: 0;
+    }
+}
+
+
+
+@media(max-width: 1134px) {
+    .Bigfooter {
+        display: flex;
+        gap: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    body {
+        margin: 0;
+    }
+
+}
+
+
+@media(max-width: 922px) {
+
+    .diffcult {
+        gap: 8px;
+    }
+
+    .salonSocialMediaitem {
+        display: flex;
+        gap: 5px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 653px) {
+
+
+    .footerpar h1 {
+        font-size: 27px;
+    }
+
+    .footerpar p {
+        font-size: 20px;
+
+    }
+
+    .saloniProductsitem {
+        display: flex;
+        justify-content: flex-start;
+        display: none;
+
+    }
+
+    .salonlegalitem {
+        display: none;
+
+    }
+
+    .footerpar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top: 125px;
+        left: 99px;
+    }
+
+    .Products h3 {
+
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .Legal h3 {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+
+    .imganda {
+        display: none;
+    }
+
+
+    .Social-Media h3 {
+        display: none;
+    }
+
+    .salonSocialMediaitem {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 27px;
+        position: absolute;
+        top: 253px;
+        right: 237px;
+
+    }
+
+
+    .diffcult {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        right: 417px;
+        gap: 2px;
+
+    }
+
+    .Bigfooter {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        
+    }
+
+
+}
