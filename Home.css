@@ -228,10 +228,16 @@
 
 .footerpar h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: -webkit-linear-gradient(#ab0dd7, #4963ca);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-color: rgb(139, 6, 165);
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #79328f, #588bd6);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 
 }
 
