@@ -3,64 +3,72 @@
 
 <head>
     <title>Salon Beauty Booking | Your Ultimate Booking Destanitaion </title>
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width , initial-scale= 1.0">
 </head>
 
 <body>
     <!-- header -->
-    <div class="header">
+    <header class="header">
 
-        <div class="headcont">
-            <a class="headimg" href=" "> <img src="salon.png" alt="salon" style="height: 46px; width: 70px;"></a>
-            <a class="headlink" href=" " target="_self" style="text-decoration: none;"> Home</a>
-            <a class="headlink" href=" " target="_self" style="text-decoration: none;"> Salons</a>
-            <a class="headlink" href=" " target="_self" style="text-decoration: none;">Products</a>
-            <a class="headlink" href=" " target="_self" style="text-decoration: none;">GiftCard</a>
-            <a class="headlink" href=" " target="_self" style="text-decoration: none;"> Blogs</a>
-            <a class="headlink" href=" " target="_self" style="text-decoration: none;"> Contact Us</a>
+        <div class="hidden-header1">
+            <img class="menu-img-media" src="pictures/2989870.png" hidden>
+            <a href=" "> <img class="head-img-media" src="pictures/salon.png" hidden></a>
         </div>
 
 
-        <div class="butandimg">
-            <img src="buy.png" style="height: 35px; width: 44px; ">
+        <div class="head-content">
+            <!--
+               <a href=" "> <img class="head-img" src="salon.png" alt="salon" style="height: 46px; width: 70px"></a>
+            -->
+            <a href=" "> <img class="head-img" src="pictures/salon.png" alt="salon"></a>
+            <a class="head-link" href=" " target="_self"> Home</a>
+            <a class="head-link" href=" " target="_self"> Salons</a>
+            <a class="head-link" href=" " target="_self">Products</a>
+            <a class="head-link" href=" " target="_self">GiftCard</a>
+            <a class="head-link" href=" " target="_self"> Blogs</a>
+            <a class="head-link" href=" " target="_self"> Contact Us</a>
+        </div>
 
-            <button class="forbus" style="height: 40px; width: 140px; 
-           color: purple; background-color: rgb(255, 255, 255); border-radius: 10px; border-color: rgb(251, 249, 252); 
-           border: 0.5px solid rgb(218, 216, 216); "> <b>For Businesses</b>
-            </button>
 
-            <button style="height: 40px; width: 70px; 
-           color: rgb(255, 255, 255); background-color:purple ; border-radius: 10px; 
-           border: 0.5px solid purple;"><b> Login</b>
+
+
+
+
+        <div class="button-and-img">
+            <img class="buy-icon" src="buy.png">
+
+            <button class="for-bussnius-button"> <b>For Businesses</b></button>
+
+            <button class="Login-button"><b> Login</b>
             </button>
         </div>
 
-    </div>
+    </header>
 
 
 
     <!-- home page -->
-    <div class="homeq">
-        <h1
-            style=" font-size: 35px; margin-bottom: 5px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">
-            Discover, Book, and Experience <br> the Best in Beauty</h1>
-        <p class="parhome" style=" font-size: 13px;"> Connecting beauty enthusiasts with top salons, spas, and Arabic
-            beauty influencers <br>
+    <div class="home-page">
+        <h1 class="home-h1"> Discover, Book, and Experience <br> the Best in Beauty</h1>
+        <p class="par-home"> Connecting beauty enthusiasts with top salons, spas, and Arabic beauty influencers <br>
             Salon Beauty Booking is your go-to platform for all your beauty needs</p>
+
         <div class="downlod">
 
-            <a href="https://apps.apple.com/us/app/salon-beauty-booking/id1454667659?ls=1" target="_blank">
-                <img src="ios.png" alt="download on app store" style="height:50px; width: 145px;">
+            <a class="link-ios" href="https://apps.apple.com/us/app/salon-beauty-booking/id1454667659?ls=1"
+                target="_blank">
+                <img class="ios-store" src="pictures/ios.png" alt="download on app store">
             </a>
 
-            <a href="https://play.google.com/store/apps/details?id=com.arabiasalons.user" target="_blank">
-                <img src="android.png" alt="download on google play" style="height: 53px; width:140px;">
+            <a class="link-android" href="https://play.google.com/store/apps/details?id=com.arabiasalons.user"
+                target="_blank">
+                <img class="android-store" src="pictures/android.png" alt="download on google play">
             </a>
         </div>
 
         <div class="homepicc">
-            <img src="homipic.png">
+            <img class="three-pic" src="pictures/homipic.png">
 
         </div>
 
@@ -70,12 +78,11 @@
     <!--Micro Influncers Page-->
 
     <div class="micro">
-        <div class="picandpar">
-
-            <div class="headandpar">
+        <div class="picture-and-paragraph">
+            <div class="head-and-paragraph">
                 <h1> Micro-Influencers </h1>
-                <p class="parheart"> The Heart of Our Beauty Community</p>
-                <p class="parmicro">
+                <p class="paragraph-heart"> The Heart of Our Beauty Community</p>
+                <p class="par-micro">
                     At Salon Beauty
                     Booking, we celebrate the
                     significant role that micro-influencers play <br> in shaping
@@ -85,26 +92,31 @@
                 </p>
             </div>
 
-
-
             <div class="pic">
-                <img src="comp.png" alt="computer" style="height: 270px; width: 430px;">
+                <img class="computer-micro-influncer" src="pictures/comp.png" alt="computer">
             </div>
 
         </div>
 
 
-        <div class="microparforli">
 
-            <p> Our Micro-Influencers</p>
-
-
+        <div class="micro-ul">
+            <p class="micro-paragraph"> Our Micro-Influencers</p>
             <ul class="items">
-                <li>Provide authentic Arabic beauty advice</li>
-                <li>Recommend their favorite products</li>
-                <li>Build trust and drive user engagement</li>
-                <li>Connect with a dedicated audience</li>
-                <li>Collaborate with top salons and beauty brands</li>
+                <div class="first">
+                    <li>Provide authentic Arabic beauty advice</li>
+                    <li>Recommend their favorite products</li>
+                </div>
+
+                <div class="seconed">
+                    <li>Build trust and drive user engagement</li>
+                    <li>Connect with a dedicated audience</li>
+                </div>
+
+                <div class="third">
+                    <li>Collaborate with top salons and beauty brands</li>
+                </div>
+
             </ul>
         </div>
 
@@ -112,26 +124,59 @@
 
     <!--footer-->
 
-    <div class="Bigfooter">
+    <div class="Big-footer">
+        <div class="Products-hid" hidden>
+            <h3 class="heading-product-legal-hidden"> Products</h3>
+            <h3 class="heading-product-legal-hidden">Legal</h3>
+        </div>
 
-        <div class="imgandparfooter">
+        <div class="footer-par-resize" hidden>
 
-            <div class="footerpar">
+            <h1 class="salon-footer">Salon Beauty Booking</h1>
+            <p class="salon-footer-paragraph">Your phone is the new salon</p>
+        </div>
+
+        <div class="salon-Social-Media-item-hidden" hidden>
+            <a href="https://www.facebook.com/Salonbeautybooking" target="_blank">
+                <img class="facebook-hid" src="pictures/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/salonbeautybooking/" target="_blank">
+
+                <img class="insta-hid" src="pictures/insta.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/company/salon-beauty-booking/" target="_blank">
+
+                <img class="linkin-hid" src="pictures/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com/@salonbeautybooking" target="_blank">
+
+                <img class="youtube-hid" src="pictures/youtube.png" alt="Youtube">
+            </a>
+            <a href="https://www.tiktok.com/@salonbeautybooking" - target="_blank" style="display: inline-block;">
+                <img class="tiktok-hid" src="pictures/tiktok.png" alt="TikTok">
+            </a>
+        </div>
+
+
+
+
+
+        <div class="img-and-parargraph-footer">
+
+            <div class="footer-par">
 
                 <h1 class="salon">Salon Beauty Booking</h1>
                 <p>Your phone is the new salon</p>
             </div>
 
 
-            <div class="imganda">
-
+            <div class="img-and-a">
                 <a href="https://apps.apple.com/us/app/salon-beauty-booking/id1454667659?ls=1" target="_blank">
-                    <img class="ios" src="ios.png" alt="download on app store">
+                    <img class="ios" src="pictures/ios.png" alt="download on app store">
                 </a>
 
-
                 <a href="https://play.google.com/store/apps/details?id=com.arabiasalons.user" target="_blank">
-                    <img class="android" src="android.png" alt="download on google play">
+                    <img class="android" src="pictures/android.png" alt="download on google play">
                 </a>
             </div>
 
@@ -142,66 +187,55 @@
         <div class="diffcult">
 
             <div class="Products">
-                <h3> Products</h3>
-                <ul class="saloniProductsitem">
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> MakeUp</a> </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> Hair Care</a></li>
-                    <li><a href="#" target="_self" style="text-decoration:none; color: black; "> Skin Care</a> </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> Organic
-                            Products</a>
-                    </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> Fragrance</a></li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;">Tools &
-                            Accessories</a>
+                <h3 class="heading-product-legal"> Products</h3>
+                <ul class="saloni-Products-item">
+                    <li> <a class="list-item" href="#" target="_self"> MakeUp</a> </li>
+                    <li> <a class="list-item" href="#" target="_self"> Hair Care</a></li>
+                    <li><a class="list-item" href="#" target="_self"> Skin Care</a> </li>
+                    <li> <a class="list-item" href="#" target="_self"> Organic Products</a></li>
+                    <li> <a class="list-item" href="#" target="_self"> Fragrance</a></li>
+                    <li> <a class="list-item" href="#" target="_self">Tools & Accessories</a>
                     </li>
                 </ul>
             </div>
 
 
             <div class="Legal">
-                <h3>Legal</h3>
-                <ul class="salonlegalitem">
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> Privacy Policy</a>
-                    </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> Terms
-                            andConditions</a>
-                    </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none;color: black;"> Shipping Policy</a>
-                    </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;"> Return Policy</a>
-                    </li>
-                    <li> <a href="#" target="_self" style="text-decoration:none; color: black;">Cookies Policy </a>
-                    </li>
+                <h3 class="heading-product-legal">Legal</h3>
+                <ul class="salon-legal-item">
+                    <li> <a class="list-item" href="#" target="_self"> Privacy Policy</a></li>
+                    <li> <a class="list-item" href="#" target="_self"> Terms and Conditions</a></li>
+                    <li> <a class="list-item" href="#" target="_self"> Shipping Policy</a></li>
+                    <li> <a class="list-item" href="#" target="_self"> Return Policy</a></li>
+                    <li> <a class="list-item" href="#" target="_self">Cookies Policy </a></li>
                 </ul>
             </div>
-
         </div>
 
         <div class="Social-Media">
-
-            <h3>Social Media</h3>
-            <div class="salonSocialMediaitem">
+            <h3 class="heading-product-legal">Social Media</h3>
+            <div class="salon-Social-Media-item">
                 <a href="https://www.facebook.com/Salonbeautybooking" target="_blank">
-                    <img class="facebook" src="facebook.png" alt="Facebook">
+                    <img class="facebook" src="pictures/facebook.png" alt="Facebook">
                 </a>
 
                 <a href="https://www.instagram.com/salonbeautybooking/" target="_blank">
 
-                    <img class="insta" src="insta.png" alt="Instagram">
+                    <img class="insta" src="pictures/insta.png" alt="Instagram">
                 </a>
 
                 <a href="https://www.linkedin.com/company/salon-beauty-booking/" target="_blank">
 
-                    <img class="linkin" src="linkedin.png" alt="LinkedIn">
+                    <img class="linkin" src="pictures/linkedin.png" alt="LinkedIn">
                 </a>
 
                 <a href="https://www.youtube.com/@salonbeautybooking" target="_blank">
 
-                    <img class="youtube" src="youtube.png" alt="Youtube">
+                    <img class="youtube" src="pictures/youtube.png" alt="Youtube">
                 </a>
 
                 <a href="https://www.tiktok.com/@salonbeautybooking" - target="_blank" style="display: inline-block;">
-                    <img class="tiktok" src="tiktok.png" alt="TikTok">
+                    <img class="tiktok" src="pictures/tiktok.png" alt="TikTok">
                 </a>
             </div>
 

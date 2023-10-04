@@ -1,0 +1,680 @@
+/*Micro Influncers*/
+.micro {
+    background-color: #fffefe;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 3px 4px 10px 5px rgb(217, 216, 216);
+    display: flex;
+    flex-direction: column;
+}
+
+.head-and-paragraph {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.picture-and-paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.micro h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.paragraph-heart {
+    color: rgb(190, 188, 188);
+}
+
+
+.par-micro {
+    line-height: 1.5;
+}
+
+.micro-paragraph {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.micro ul {
+
+    margin-left: 40px;
+    line-height: 2;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.computer-micro-influncer {
+    display: flex;
+    align-self: flex-start;
+    max-width: 100%;
+}
+
+
+
+
+/*Header */
+.header {
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(236, 236, 236, 0.683);
+    background-color: #fffefe;
+    opacity: 1.0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.home-h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.par-home {
+    font-size: 13px;
+}
+
+.ios-store {
+    height: 50px;
+    width: 145px;
+}
+
+
+.three-pic {
+    width: 480px;
+    height: 380px;
+}
+
+.android-store {
+    height: 53px;
+    width: 140px;
+}
+
+.head-content {
+
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-img {
+    height: 20px;
+    width: 20px;
+}
+
+.menu-img-media {
+
+    height: 20px;
+    width: 20px;
+}
+
+.head-img-media {
+    height: 46px;
+    width: 70px
+}
+
+.buy-icon-media {
+    height: 35px;
+    width: 44px;
+
+}
+
+
+.head-img {
+    height: 46px;
+    width: 70px
+}
+
+/*
+.head-img{
+    height: 400px; 
+    width: 400px
+}*/
+
+.link-ios {
+    height: 50px;
+    width: 145px;
+
+}
+
+.link-android {
+    height: 53px;
+    width: 140px;
+}
+
+
+.for-bussnius-button {
+    height: 40px;
+    width: 140px;
+    color: purple;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(251, 249, 252);
+    border: 0.5px solid rgb(218, 216, 216);
+}
+
+.Login-button {
+    height: 40px;
+    width: 70px;
+    color: rgb(255, 255, 255);
+    background-color: purple;
+    border-radius: 10px;
+    border: 0.5px solid purple;
+}
+
+.head-link {
+    color: black;
+    text-decoration: none;
+}
+
+.button-and-img {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 0px 30px;
+
+}
+
+.buy-icon {
+    height: 35px;
+    width: 44px;
+}
+
+.downlod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.seconed {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.third {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgba(230, 230, 230, 255);
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+
+/*footer*/
+.Big-footer {
+
+    margin-top: 40px;
+    box-shadow: 0px -7px 3px 0px rgba(236, 236, 236, 0.683);
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 118px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.img-and-parargraph-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 34px;
+    margin-left: 20px;
+}
+
+
+.salon {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(139, 6, 165);
+    background-image: linear-gradient(#79328f, #588bd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.salon-footer-paragraph {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(190, 188, 188);
+}
+
+
+.img-and-a {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.ios {
+
+    height: 50px;
+    width: 160px;
+}
+
+.android {
+    height: 52px;
+    width: 160px;
+}
+
+.diffcult {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+
+}
+
+.heading-product-legal {
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saloni-Products-item {
+    line-height: 3;
+    font-size: 13px;
+    list-style: none;
+
+}
+
+.list-item {
+    text-decoration: none;
+    color: black;
+}
+
+.Legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.salon-legal-item {
+    line-height: 2.5;
+    font-size: 13px;
+    list-style: none;
+}
+
+.Social-Media {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.salon-Social-Media-item {
+    display: flex;
+    gap: 40px;
+
+}
+
+.facebook {
+    height: 15px;
+    width: 15px;
+}
+
+.insta {
+    height: 16px;
+    width: 16px;
+
+}
+
+.linkin {
+    height: 15px;
+
+}
+
+.youtube {
+    height: 13px;
+    width: 18px;
+
+}
+
+.tiktok {
+    height: 15px;
+    width: 15px;
+
+}
+
+.facebook-hid {
+    height: 15px;
+    width: 15px;
+}
+
+.insta-hid {
+    height: 16px;
+    width: 16px;
+
+}
+
+.linkin-hid {
+    height: 15px;
+
+}
+
+.youtube-hid {
+    height: 13px;
+    width: 18px;
+
+}
+
+.tiktok-hid {
+    height: 15px;
+    width: 15px;
+
+}
+
+.salon-footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(139, 6, 165);
+    background-image: linear-gradient(#79328f, #588bd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.Products-hid{
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.hidden-product-and-legal {}
+
+
+@media(max-width: 1200px) {
+
+    .salon-Social-Media-item {
+        display: flex;
+        gap: 25px;
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width:1024px) {
+
+    .salon-Social-Media-item {
+        display: flex;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .diffcult {
+        display: flex;
+        gap: 10px;
+        margin-left: 0;
+    }
+    .Big-footer {
+        display: flex;
+        gap: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    body {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .home-page {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .three-pic {
+        width: 55%;
+        height: 60%;
+
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .micro {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .computer-micro-influncer {
+        display: none;
+    }
+
+
+    .head-and-paragraph {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .picture-and-paragraph {
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .micro-paragraph {
+        margin-left: 30px;
+    }
+
+    .micro h1 {
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+
+    .paragraph-heart {
+        display: none;
+    }
+
+    .head-and-paragraph p {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1027px) {
+    .for-bussnius-button {
+        display: none;
+    }
+
+    .head-link {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .header {
+        display: flex;
+    }
+
+    .hidden-header1 {
+        display: flex;
+        gap: 14px;
+    }
+
+
+    .menu-img-media {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        align-self: center;
+
+    }
+
+    .head-img-media {
+        display: flex;
+        align-self: center;
+
+
+    }
+
+    .head-img {
+
+        display: none;
+    }
+
+    .buy-icon {
+        display: flex;
+        align-self: flex-start;
+
+
+    }
+
+    .Login-button {
+        display: flex;
+        padding: 9px 15px;
+
+    }
+
+    .heading-product-legal {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .Products {
+
+        display: none;
+    }
+
+    .Legal {
+        display: none;
+    }
+
+    .img-and-a {
+        display: none;
+    }
+
+    .heading-product-legal {
+        display: none;
+    }
+
+    .footer-par {
+        display: none;
+
+    }
+
+    .salon-Social-Media-item {
+        display: none;
+    }
+
+    .Big-footer {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-par-resize {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .salon-footer {
+
+        display: flex;
+        font-size: 20px;
+        align-self: center;
+    }
+
+    .salon-footer-paragraph {
+        font-size: large;
+
+    }
+
+
+    .salon-Social-Media-item-hidden {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+
+
+    .Products-hid{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 20px;
+        padding-left: 30px;
+    }
+
+
+
+
+
+
+}
